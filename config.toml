@@ -16,76 +16,41 @@ paginate = 7
     weight = 1
 
   [[menu.main]]
+    parent = "About"
+    name = "About"
+    url = "/about/"
+    weight = 3
+    
+  [[menu.main]]
     identifier = "authors"
     name = "Authors"
     url = "/authors/"
     weight = 2
+ 
+ # Footer Menu
+  [[menu.footer]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
 
-  [[menu.main]]
-    identifier = "videos"
-    name = "Videos"
-    url = "/videos/"
+  [[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.footer]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
     weight = 3
-    hasChildren = true
-
-      [[menu.main]]
-        parent = "Pages"
-        name = "About"
-        url = "/about/"
-        weight = 1
-
-      [[menu.main]]
-        parent = "Pages"
-        name = "Contact"
-        url = "/contact/"
-        weight = 2
-
-      [[menu.main]]
-        parent = "Pages"
-        name = "Elements"
-        url = "/elements/"
-        weight = 3
-
-    # Footer Menu
-    [[menu.footer]]
-      identifier = "home"
-      name = "Home"
-      url = "/"
-      weight = 1
-
-    [[menu.footer]]
-      identifier = "about"
-      name = "About"
-      url = "/about/"
-      weight = 2
-
-    [[menu.footer]]
-      identifier = "contact"
-      name = "Contact"
-      url = "/contact/"
-      weight = 3
-
-    [[menu.footer]]
-      identifier = "elements"
-      name = "Elements"
-      url = "/elements/"
-      weight = 4
 
 
 [params]
   #logo = "/images/logo.png" # You can add own logo. For example "/images/logo.png".
   #description = "Mria is a multipurpose blog theme for HUGO"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
-
-
-  #-------------------------------
-  # Hero Settings
-  #[params.hero]
-  #  enable = true
-  #  hero__title = "Thoughts, stories and ideas."
-  #  hero__description = "Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve."
-  #  hero__image = "" # You can add hero image. For example "/images/06.jpg"
-
 
   #-------------------------------
   # Blog Section Settings
@@ -94,26 +59,17 @@ paginate = 7
     blog__title = "Latest Posts"
     blog__description = ""
 
-
-  #-------------------------------
-  # Videos Section Settings
-  [params.videos]
-    enable = true
-    videos__title = "Latest Videos"
-    videos__description = ""
-
-
   #-------------------------------
   # Tag Section Settings
   [params.tag]
-    enable = true
+    enable = false
     tag = "containers" #
 
 
   #-------------------------------
   # Author Section Settings
   [params.author_section]
-    enable = true
+    enable = false
     author__section__title = "Hello, my name is Alena. I’m reviewer and content creator."
     author__section__description = "I’m a published content creator, brand copywriter, photographer, and social media content creator and manager. I help brands connect with their customers by developing engaging content that entertains, educates, and offers value to their audience."
     aurhor__section__button__text = "More About Me"
@@ -125,7 +81,7 @@ paginate = 7
 
   # Newsletter
   [params.mailchimp]
-    enable = true
+    enable = false
     mailchimp__title = "Get interesting news"
     mailchimp__description = "Subscribe to our newsletter and we’ll send you the emails of latest posts."
     mailchimp__identifier = "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
@@ -135,41 +91,11 @@ paginate = 7
 
 
   #-------------------------------
-  # Footer Settings
-  [params.footer]
-    footer__description = "Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve."
-
   # Social Links
   [[params.social]]
     icon = "ion-logo-twitter"
     name = "Twitter"
-    link = "https://twitter.com"
-
-  [[params.social]]
-    icon = "ion-logo-facebook"
-    name = "Facebook"
-    link = "https://facebook.com"
-
-  [[params.social]]
-    icon = "ion-logo-codepen"
-    name = "Codepen"
-    link = "https://codepen.io"
-
-  [[params.social]]
-    icon = "ion-logo-pinterest"
-    name = "Pinterest"
-    link = "https://pinterest.com"
-
-  [[params.social]]
-    icon = "ion-logo-vimeo"
-    name = "Vimeo"
-    link = "https://vimeo.com"
-
-  # Example of adding a new link to the footer section:
-  # [[params.social]]
-  #   icon = "ion-logo-youtube"
-  #   name = "Youtube"
-  #   link = "https://youtube.com"
+    link = "https://twitter.com/cloudnatcentral"
 
   # Other icons can be found at https://ionicons.com/v4/
 
@@ -177,16 +103,10 @@ paginate = 7
   #-------------------------------
   # Contact Settings
   [params.contact]
-    email = "your@email.com" # Add your form_id
+    email = "ravikanth@ravichaganti.com" # Add your form_id
 
     # NOTE
     # Mria comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
-
-  #-------------------------------
-  # Comment Section (Disqus)
-  [params.disqus]
-    enable = true
-    disqusShortname = "anvod-studio-test" # Add your shortname for Disqus Comment. For example anvod-studio-test
 
 [taxonomies]
   author = "authors"
