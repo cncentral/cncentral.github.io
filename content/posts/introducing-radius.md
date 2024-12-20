@@ -1,6 +1,6 @@
 ---
 title: Introducing Radius
-description: Radius is a cloud-native application platform developed to enable developers and operators to collaborate on applications across cloud and on-prem infrastructure.
+description: Radius is a cloud-native application platform developed to enable developers and operators to collaborate on applications across cloud and on-premises infrastructure.
 date:   2023-10-25
 authors: [ravikanth]
 image:  '/images/radius.png'
