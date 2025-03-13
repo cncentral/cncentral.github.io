@@ -23,7 +23,7 @@ At a high level, K8s contains a few components that are core to container orches
 
 ![/images/kubernetes-container-runtime.png](/images/kubernetes-container-runtime.png)
 
-The diagram shows that the Kubernetes infrastructure contains control plane and worker nodes. The Kubernetes control plane is the interface that defines, deploys, and manages the container's lifecycle.
+The diagram shows that the Kubernetes infrastructure contains controlplane and worker nodes. The Kubernetes control plane is the interface that defines, deploys, and manages the container's lifecycle.
 
 The control plane is typically made of a few different components. This includes:
 

@@ -9,7 +9,7 @@ featured: true
 draft: false
 ---
 
-There are many ways to install and configure Kubernetes cluster for learning and development purposes. We can use [Docker Desktop](https://www.docker.com/products/docker-desktop/), [Rancher Desktop](https://rancherdesktop.io/), [Podman Desktop](https://podman-desktop.io/), [minikube](https://minikube.sigs.k8s.io/docs/start/), or [microk8s](https://microk8s.io/) to quickly create a single node cluster for our development work. These are good for quick development work but not so much when we need a multi-node cluster with additional services. For such a scenario, we can use virtual machines and configure a Kubernetes cluster using [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/). 
+There are many ways to install and configure a Kubernetes cluster for learning and development purposes. We can use [Docker Desktop](https://www.docker.com/products/docker-desktop/), [Rancher Desktop](https://rancherdesktop.io/), [Podman Desktop](https://podman-desktop.io/), [minikube](https://minikube.sigs.k8s.io/docs/start/), or [microk8s](https://microk8s.io/) to quickly create a single-node cluster for our development work. These are good for quick development work but not so much when we need a multi-node cluster with additional services. For such a scenario, we can use virtual machines and configure a Kubernetes cluster using [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/). 
 
 This article examines the steps necessary to set up a virtual Kubernetes cluster. 
 
