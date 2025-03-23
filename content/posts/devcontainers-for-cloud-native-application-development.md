@@ -5,7 +5,7 @@ date:   2024-02-03
 authors: [ravikanth]
 image:  '/images/devcontainer.png'
 tags:   [cloud-native, containers, docker, docker-compose]
-featured: true
+featured: false
 draft: false
 ---
 
